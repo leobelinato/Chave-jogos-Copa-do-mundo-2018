@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{801D2922-3C00-461A-A44D-6D56F48B500C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TabelaDaCopa</RootNamespace>
+    <AssemblyName>TabelaDaCopa</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GRUPOA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GRUPOA.Designer.cs">
+      <DependentUpon>GRUPOA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GRUPOBGAMBIS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GRUPOBGAMBIS.Designer.cs">
+      <DependentUpon>GRUPOBGAMBIS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GRUPOCcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GRUPOCcs.Designer.cs">
+      <DependentUpon>GRUPOCcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GRUPOD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GRUPOD.Designer.cs">
+      <DependentUpon>GRUPOD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GRUPOE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GRUPOE.Designer.cs">
+      <DependentUpon>GRUPOE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GRUPOF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GRUPOF.Designer.cs">
+      <DependentUpon>GRUPOF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GRUPOG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GRUPOG.Designer.cs">
+      <DependentUpon>GRUPOG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GRUPOHcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GRUPOHcs.Designer.cs">
+      <DependentUpon>GRUPOHcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GRUPOA.resx">
+      <DependentUpon>GRUPOA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GRUPOBGAMBIS.resx">
+      <DependentUpon>GRUPOBGAMBIS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GRUPOCcs.resx">
+      <DependentUpon>GRUPOCcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GRUPOD.resx">
+      <DependentUpon>GRUPOD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GRUPOE.resx">
+      <DependentUpon>GRUPOE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GRUPOF.resx">
+      <DependentUpon>GRUPOF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GRUPOG.resx">
+      <DependentUpon>GRUPOG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GRUPOHcs.resx">
+      <DependentUpon>GRUPOHcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\res\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\res\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\res\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\res\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\gp2\espanha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\gp2\ira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\gp2\marrocos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\gp2\port.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\GP3\AUST.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\GP3\DIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\GP3\FRNC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\GP3\PER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\argentina.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\croacia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\islandia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\nigeria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\brasil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\costarica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\servia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\suica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\alemanha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\coreias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\mexico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\suecia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\belgica.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\inglaterra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\panama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\tunisia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\colombia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\japao.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\polonia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\senegal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\o-melhor-futebol-2018-1-1-1024x576.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\o-melhor-futebol-2018-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\o-melhor-futebol-2018-2-1024x512.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\FIFA_World_Cup_Russia_2018_Red_Blue_Confrontation_1366x768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\927110.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
